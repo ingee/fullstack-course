@@ -1,0 +1,52 @@
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+.col-lg-4,
+.col-md-6, .col-md-12,
+.col-sm-12 {
+  position: relative;
+  float: left;
+  border: 1px solid;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.menu-title {
+  float: right;
+  clear: both;
+  border: 1px solid;
+  margin-top: 0px;
+}
+
+.menu-content {
+  clear: right;
+}
+
+* {
+  box-sizing: border-box;
+}
